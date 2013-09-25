@@ -42,13 +42,11 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-group :assets do
-  # Use SCSS for stylesheets
-  #gem 'sass-rails', '~> 4.0.0'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
 
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', platforms: :ruby
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem 'therubyracer', platforms: :ruby
 
-  gem 'less-rails'
-  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-end
+gem 'less-rails'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
