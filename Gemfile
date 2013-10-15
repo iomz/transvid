@@ -54,3 +54,4 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'jquery-fileupload-rails'
 gem 'paperclip'
 gem 'protected_attributes'
+gem 'devise'
