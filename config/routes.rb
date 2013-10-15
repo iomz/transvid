@@ -1,4 +1,5 @@
 Transvid::Application.routes.draw do
+  resources :uploads
   get "transcode/index"
   get "help/index"
   get "about/index"
