@@ -13,12 +13,14 @@
 
 # Mac
 .DS_Store
- 
+
 # Vim
 *~
 .*.sw*
-  
+
 # Rails
 public/assets
 config/database.yml
 coverage
+
+Gemfile.lock
